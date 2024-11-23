@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+.main{
+    background-color: white;
+}
+/* navbar */
+.nav-bar{
+    height: 100px;
+    background-color: #bce9e5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    height: 50px;
+    width: 125px;
+    margin-left: 20px;
+}
+.logo{
+    background-image: url(logo-navbar.png);
+    height: 50px;
+    width: 100%;
+    background-size: contain;
+}
+.nav-middle-logo{
+    height: 50px;
+    width: 120px;
+}
+.middle-logo{
+    background-image: url(national.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.options{
+    width: 300px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-size: small;
+}
+.home{
+    color: black;
+}
+.middle-photo{
+    height: 400px;
+    /* background-color: pink; */
+    background-image: url(EhospitalImage1.jpg);
+    background-size: cover;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.pdf{
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+
+/* footer */
+.main-foot{
+    background-color: #33b5e5;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-img{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 68px;
+    width: 200px;
+    background-size: contain;
+}
+.copyright{
+    height: 68px;
+    width: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.last-content{
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: small;
+}
+.logo-nic{
+    height: 40px;
+    width: 200px;
+    background-size: contain;
+}
+.contact-us{
+    color: black;
+}
